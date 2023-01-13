@@ -21,7 +21,7 @@ function Todo(props) {
         setModalIsOpen(false);
     }
 
-    //In line 30, <Backdrop onCancel={closeModalHandler}, we use prop to pass function as a value
+    //In line 30, <Backdrop onCancel={closeModalHandler}, we use prop to pass function as a value.
   return (
     <div className='card'>
       <h2>{props.text}</h2>
